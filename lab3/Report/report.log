@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.10.7)  28 OCT 2018 14:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.10.7)  28 OCT 2018 15:00
 entering extended mode
 **"c:/STUDIA/3 ROK/5 semestr/Bezpieka/lab2/repo/lab3/Report/report.tex"
 ("c:/STUDIA/3 ROK/5 semestr/Bezpieka/lab2/repo/lab3/Report/report.tex"
@@ -324,7 +324,9 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 28.
  [1
 
-{C:/Users/Kacper Zielinski/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2] (report.aux) ) 
+{C:/Users/Kacper Zielinski/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2] [3
+
+] (report.aux) ) 
 Here is how much of TeX's memory you used:
  3111 strings out of 492970
  44419 string characters out of 3135820
@@ -334,9 +336,9 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  55i,7n,30p,353b,296s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/pl/plrm.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/pl/plbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/pl/plr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/pl/plr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/pl/plr17.pfb>
-Output written on report.pdf (2 pages, 51061 bytes).
+Output written on report.pdf (3 pages, 53932 bytes).
 PDF statistics:
- 30 PDF objects out of 1000 (max. 8388607)
+ 33 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
