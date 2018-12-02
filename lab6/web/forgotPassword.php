@@ -15,11 +15,37 @@
 		} else {
 			$_SESSION['saveEmail'] = $email;
 		}
-
-		require_once "../includes/dbConnector.php";
-		$connector = DbConnector::getInstance();
+		
+		$secret = '6LdNGX4UAAAAAHooCrQd43aYCPzys2o_TxCFye9A';
+		$response = $_POST["g-recaptcha-response"];
+		$url = 'https://www.google.com/recaptcha/api/siteverify';
+		
+		$data = array(
+			$secret = '6LdNGX4UAAAAAHooCrQd43aYCPzys2o_TxCFye9A',
+			$response = $_POST["g-recaptcha-response"]
+		);
+		
+		$options = array(
+			'http' => array(
+				'method' => 'POST',
+				'content' => http_build_query($data)
+			)
+		);
+		
+		$context = stream_context_create($options);
+		$verify = file_get_contents("{$url}?secret={$secret}&response={$response}");
+		$captcha_success = json_decode($verify);
+		
+		if($captcha_success->success == true) {
+			unset($_SESSION['invalidCaptcha']);
+		} else {
+			$_SESSION['invalidCaptcha'] = true;
+			$error = true;
+		}
 
 		if(!$error) {
+			require_once "../includes/dbConnector.php";
+			$connector = DbConnector::getInstance();
 			$result = $connector->sendResetToken($email);
 
 			if($result) {
@@ -41,6 +67,7 @@
 		<meta name="author" content="Kacper Zielinski">
 		<meta name="viewport" content = "width=device-width, initial-scale=1.0"/>
         <link rel="stylesheet" href="../static/css/form.css" />
+		<script src='https://www.google.com/recaptcha/api.js'></script>
     </head>
     <body>
 		<div class="formDiv">
@@ -53,6 +80,8 @@
 				<input type="text" name="email" required value="<?php saveValue('saveEmail') ?>" />
 				<br>
 				<?php printError('errorEmail') ?>
+				<div class="g-recaptcha" data-sitekey="6LdNGX4UAAAAAO5nKjKGC8UT6O6_u3WLCZytdY3n"></div>
+				<?php printErrorWithMessage('invalidCaptcha', 'Invalid captcha!') ?>
 				<input type="submit" value="Reset password" />
 			</form>
 		</div>
