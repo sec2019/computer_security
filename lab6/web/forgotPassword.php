@@ -53,7 +53,6 @@
 				header('Location: resetPassword.php');
 			} else {
 				$_SESSION['errorEmail'] = "Invalid email address.";
-				$_SESSION['reset'] = "User with given e-mail has not been found.";
 			}
 		}
 	}

@@ -1,8 +1,13 @@
 <?php
 	session_start();
 	require_once "webUtils.php";
+	
+	if(!isset($_SESSION['reset'])) {
+		header('Location: forgotPassword.php');
+		exit();
+	}
 
-	if(isset($_POST['email'])){
+	if(isset($_POST['email'])) {
 		$error = false;
 		$email = $_POST['email'];
 		$token = $_POST['token'];

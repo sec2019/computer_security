@@ -3,6 +3,7 @@
 
 	if(!isset($_SESSION['reset'])) {
 		header('Location: resetPassword.php');
+		unset($_SESSION['reset']);
 		exit();
 	}
 ?>
