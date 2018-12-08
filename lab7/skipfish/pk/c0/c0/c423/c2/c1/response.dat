@@ -1,0 +1,24 @@
+HTTP/1.1 200 Partial Content
+Date: Sat, 08 Dec 2018 21:53:48 GMT
+Server: Apache/2.4.35 (Win32) OpenSSL/1.1.0i PHP/7.2.11
+Content-Range: bytes 0-818/819
+Content-Length: 819
+Keep-Alive: timeout=5, max=24
+Connection: Keep-Alive
+Content-Type: text/html;charset=UTF-8
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+ <head>
+  <title>Index of /_me_lab7/static/js</title>
+ </head>
+ <body>
+<h1>Index of /_me_lab7/static/js</h1>
+  <table>
+   <tr><th valign="top"><img src="/icons/blank.gif" alt="[ICO]"></th><th><a href="?C=N;O=A">Name</a></th><th><a href="?C=M;O=A">Last modified</a></th><th><a href="?C=S;O=A">Size</a></th><th><a href="?C=D;O=A">Description</a></th></tr>
+   <tr><th colspan="5"><hr></th></tr>
+<tr><td valign="top"><img src="/icons/back.gif" alt="[PARENTDIR]"></td><td><a href="/_me_lab7/static/">Parent Directory</a>       </td><td>&nbsp;</td><td align="right">  - </td><td>&nbsp;</td></tr>
+   <tr><th colspan="5"><hr></th></tr>
+</table>
+<address>Apache/2.4.35 (Win32) OpenSSL/1.1.0i PHP/7.2.11 Server at kacperzielinski.pl Port 80</address>
+</body></html>

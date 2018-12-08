@@ -1,0 +1,27 @@
+HTTP/1.1 200 Partial Content
+Date: Sat, 08 Dec 2018 21:52:35 GMT
+Server: Apache/2.4.35 (Win32) OpenSSL/1.1.0i PHP/7.2.11
+Content-Range: bytes 0-1425/1426
+Content-Length: 1426
+Keep-Alive: timeout=5, max=56
+Connection: Keep-Alive
+Content-Type: text/html;charset=UTF-8
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+ <head>
+  <title>Index of /_me_lab7/static</title>
+ </head>
+ <body>
+<h1>Index of /_me_lab7/static</h1>
+  <table>
+   <tr><th valign="top"><img src="/icons/blank.gif" alt="[ICO]"></th><th><a href="?C=N;O=A">Name</a></th><th><a href="?C=M;O=A">Last modified</a></th><th><a href="?C=S;O=A">Size</a></th><th><a href="?C=D;O=A">Description</a></th></tr>
+   <tr><th colspan="5"><hr></th></tr>
+<tr><td valign="top"><img src="/icons/back.gif" alt="[PARENTDIR]"></td><td><a href="/_me_lab7/">Parent Directory</a>       </td><td>&nbsp;</td><td align="right">  - </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/folder.gif" alt="[DIR]"></td><td><a href="js/">js/</a>                    </td><td align="right">2018-11-29 00:34  </td><td align="right">  - </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/folder.gif" alt="[DIR]"></td><td><a href="img/">img/</a>                   </td><td align="right">2018-12-08 21:11  </td><td align="right">  - </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/folder.gif" alt="[DIR]"></td><td><a href="css/">css/</a>                   </td><td align="right">2018-12-08 21:11  </td><td align="right">  - </td><td>&nbsp;</td></tr>
+   <tr><th colspan="5"><hr></th></tr>
+</table>
+<address>Apache/2.4.35 (Win32) OpenSSL/1.1.0i PHP/7.2.11 Server at kacperzielinski.pl Port 80</address>
+</body></html>

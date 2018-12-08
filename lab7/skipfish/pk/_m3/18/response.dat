@@ -1,0 +1,14 @@
+HTTP/1.1 200 Partial Content
+Date: Sat, 08 Dec 2018 20:55:39 GMT
+Server: Apache/2.4.35 (Win32) OpenSSL/1.1.0i PHP/7.2.11
+Last-Modified: Sun, 01 Feb 2009 02:37:34 GMT
+ETag: "3f2-461d252061780"
+Accept-Ranges: bytes
+Content-Length: 1010
+Content-Range: bytes 0-1009/1010
+Keep-Alive: timeout=5, max=99
+Connection: Keep-Alive
+Content-Type: image/png
+
+‰PNG
+

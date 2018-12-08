@@ -1,0 +1,23 @@
+HTTP/1.1 403 Forbidden
+Date: Sat, 08 Dec 2018 20:57:57 GMT
+Server: Apache/2.4.35 (Win32) OpenSSL/1.1.0i PHP/7.2.11
+Alternates: {"HTTP_FORBIDDEN.html.var" 1 {type text/html} {charset utf-8} {language cs} {length 599}}, {"HTTP_FORBIDDEN.html.var" 1 {type text/html} {charset utf-8} {language de} {length 629}}, {"HTTP_FORBIDDEN.html.var" 1 {type text/html} {charset utf-8} {language en} {length 508}}, {"HTTP_FORBIDDEN.html.var" 1 {type text/html} {language es} {length 581}}, {"HTTP_FORBIDDEN.html.var" 1 {type text/html} {charset utf-8} {language fr} {length 652}}, {"HTTP_FORBIDDEN.html.var" 1 {type text/html} {charset utf-8} {language ga} {length 686}}, {"HTTP_FORBIDDEN.html.var" 1 {type text/html} {charset utf-8} {language it} {length 541}}, {"HTTP_FORBIDDEN.html.var" 1 {type text/html} {charset utf-8} {language ja} {length 704}}, {"HTTP_FORBIDDEN.html.var" 1 {type text/html} {charset utf-8} {language ko} {length 622}}, {"HTTP_FORBIDDEN.html.var" 1 {type text/html} {charset utf-8} {language nl} {length 579}}, {"HTTP_FORBIDDEN.html.var" 1 {type text/html} {charset utf-8} {language nb} {length 620}}, {"HTTP_FORBIDDEN.html.var" 1 {type text/html} {charset utf-8} {language pl} {length 587}}, {"HTTP_FORBIDDEN.html.var" 1 {type text/html} {charset utf-8} {language pt-br} {length 685}}, {"HTTP_FORBIDDEN.html.var" 1 {type text/html} {charset iso-8859-1} {language pt} {length 589}}, {"HTTP_FORBIDDEN.html.var" 1 {type text/html} {charset utf-8} {language ro} {length 535}}, {"HTTP_FORBIDDEN.html.var" 1 {type text/html} {charset utf-8} {language ru} {length 655}}, {"HTTP_FORBIDDEN.html.var" 1 {type text/html} {charset utf-8} {language sr} {length 793}}, {"HTTP_FORBIDDEN.html.var" 1 {type text/html} {charset utf-8} {language sv} {length 721}}, {"HTTP_FORBIDDEN.html.var" 1 {type text/html} {charset utf-8} {language tr} {length 549}}, {"HTTP_FORBIDDEN.html.var" 1 {type text/html} {charset utf-8} {language zh-cn} {length 507}}, {"HTTP_FORBIDDEN.html.var" 1 {type text/html} {charset utf-8} {language zh-tw} {length 507}}
+Vary: accept-language,accept-charset
+Content-Length: 455
+Keep-Alive: timeout=5, max=77
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don't have permission to access /_me_lab7/.htpasswd
+on this server.<br />
+</p>
+<p>Additionally, a 403 Forbidden
+error was encountered while trying to use an ErrorDocument to handle the request.</p>
+<hr>
+<address>Apache/2.4.35 (Win32) OpenSSL/1.1.0i PHP/7.2.11 Server at kacperzielinski.pl Port 80</address>
+</body></html>

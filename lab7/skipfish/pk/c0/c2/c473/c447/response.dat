@@ -1,0 +1,44 @@
+HTTP/1.1 200 Partial Content
+Date: Sat, 08 Dec 2018 21:35:27 GMT
+Server: Apache/2.4.35 (Win32) OpenSSL/1.1.0i PHP/7.2.11
+X-Powered-By: PHP/7.2.11
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Content-Range: bytes 0-986/987
+Content-Length: 987
+Keep-Alive: timeout=5, max=79
+Connection: Keep-Alive
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SecurBank Transfers History</title>
+		<meta charset="utf-8">
+		<meta name="author" content="Kacper Zielinski">
+		<meta name="viewport" content = "width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="../static/css/form.css" />
+        <link rel="stylesheet" href="../static/css/table.css" />
+    </head>
+    <body>
+		<div class="formDiv">
+			<table id="history">
+				<thead>
+					<tr>
+					<th>Nazwa odbiorcy</th> 
+					<th>Konto odbiorcy</th> 
+					<th>Wartość</th> 
+					<th>Tytuł</th> 
+					<th>Data</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr><td>jaja</td><td>123412341234567856785678</td><td>12.12</td><td>pppppp</td><td>2018-12-07 19:51:06</td></tr><tr><td>ja</td><td>123456789012345678</td><td>2.02</td><td>przelew</td><td>2018-12-07 19:49:16</td></tr>				</tbody>
+			</table>
+		<br>
+		<a href="home.php" class="leftDownLink">Return</a>
+		</div>
+    </body>
+</html>
+

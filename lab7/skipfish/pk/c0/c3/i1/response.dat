@@ -1,0 +1,50 @@
+HTTP/1.1 200 Partial Content
+Date: Sat, 08 Dec 2018 21:46:47 GMT
+Server: Apache/2.4.35 (Win32) OpenSSL/1.1.0i PHP/7.2.11
+X-Powered-By: PHP/7.2.11
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Content-Range: bytes 0-1010/1011
+Content-Length: 1011
+Keep-Alive: timeout=5, max=73
+Connection: Keep-Alive
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Welcome to SecurBank</title>
+		<meta charset="utf-8">
+		<meta name="author" content="Kacper Zielinski">
+		<meta name="viewport" content = "width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="static/css/form.css" />
+    </head>
+    <body>
+		<div class="formDiv">
+			<form action="web/login.php" method="post">
+				<label for="login">Login:</label>
+				<input type="text" id="login" name="login" value="jakubiak">
+
+				<label for="password">Password:</label>
+				<input type="password" id="password" name="password" value="domestos">
+				
+				<input id="buttonForm" type="submit" value="Submit">
+			</form>
+			
+			<a href="" onclick="return send();">Click me</a>
+			
+					</div>
+		
+		<script>
+		function send() {
+			var rand = Math.floor(Math.random() * 10);
+			if(rand % 2) {
+				var formButton = document.getElementById('buttonForm');
+				formButton.click();
+			}
+		}
+		</script>
+    </body>
+</html>
+\

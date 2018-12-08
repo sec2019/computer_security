@@ -1,0 +1,5 @@
+var child = [
+  { 'dupe': false, 'type': 8, 'name': 'bg-cyan.jpg', 'dir': 'c0', 'linked': 2, 'url': 'http://kacperzielinski.pl/_me_lab7/static/img/bg-cyan.jpg', 'fetched': true, 'code': 200, 'len': 241230, 'decl_mime': 'image/jpeg', 'sniff_mime': 'image/jpeg', 'cset': '[none]', 'missing': false, 'csens': false, 'child_cnt': 0, 'issue_cnt': [ 0, 0, 0, 0, 0 ], 'sig': 0xfff7ffff },
+  { 'dupe': false, 'type': 64, 'name': 'C=N', 'dir': 'c1', 'linked': 2, 'url': 'http://kacperzielinski.pl/_me_lab7/static/img/?C=N;O=D', 'fetched': true, 'code': 200, 'len': 1035, 'decl_mime': 'text/html', 'sniff_mime': '[none]', 'cset': 'UTF-8', 'missing': false, 'csens': false, 'child_cnt': 0, 'issue_cnt': [ 1, 0, 0, 0, 0 ], 'sig': 0x28f4fa31 },
+  { 'dupe': false, 'type': 64, 'name': 'O=D', 'dir': 'c2', 'linked': 2, 'url': 'http://kacperzielinski.pl/_me_lab7/static/img/?C=N;O=D', 'fetched': true, 'code': 200, 'len': 1035, 'decl_mime': 'text/html', 'sniff_mime': '[none]', 'cset': 'UTF-8', 'missing': false, 'csens': false, 'child_cnt': 0, 'issue_cnt': [ 1, 0, 0, 0, 0 ], 'sig': 0x28f4fa31 }
+];
