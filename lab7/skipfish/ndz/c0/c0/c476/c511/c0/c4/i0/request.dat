@@ -1,0 +1,12 @@
+POST /_me_lab7/web/transferForm.php HTTP/1.1
+Host: kacperzielinski.pl
+Accept-Encoding: gzip
+Connection: keep-alive
+User-Agent: Mozilla/5.0 SF/2.10b
+Range: bytes=0-399999
+Referer: http://kacperzielinski.pl/
+Cookie: PHPSESSID=dsqsuu7kk93vkft0rjtn16if76
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 46
+
+name=Smith&account=89&zl=1&gr=1&title=skipfish

@@ -1,0 +1,29 @@
+HTTP/1.1 200 Partial Content
+Date: Sun, 09 Dec 2018 09:01:17 GMT
+Server: Apache/2.4.35 (Win32) OpenSSL/1.1.0i PHP/7.2.11
+X-Powered-By: PHP/7.2.11
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Content-Range: bytes 0-1460/1461
+Content-Length: 1461
+Keep-Alive: timeout=5, max=14
+Connection: Keep-Alive
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SecurBank - Register</title>
+		<meta charset="utf-8">
+		<meta name="author" content="Kacper Zielinski">
+		<meta name="viewport" content = "width=device-width, initial-scale=1.0"/>
+		
+        <link rel="stylesheet" href="../static/css/form.css" />
+		<script src='https://www.google.com/recaptcha/api.js'></script>
+    </head>
+    <body>
+		<div class="formDiv">
+			<a href="../index.php" class="rightTopLink">Return to login page</a>
+			<br><br>
+			<form method="post"

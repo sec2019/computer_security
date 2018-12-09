@@ -1,0 +1,9 @@
+GET /icons/small/generic.gif HTTP/1.1
+Host: kacperzielinski.pl
+Accept-Encoding: gzip
+Connection: keep-alive
+User-Agent: Mozilla/5.0 SF/2.10b
+Range: bytes=0-399999
+Referer: http://kacperzielinski.pl/
+Cookie: PHPSESSID=dsqsuu7kk93vkft0rjtn16if76
+

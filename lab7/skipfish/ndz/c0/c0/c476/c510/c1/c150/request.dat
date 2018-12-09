@@ -1,0 +1,12 @@
+POST /_me_lab7/web/register.php HTTP/1.1
+Host: kacperzielinski.pl
+Accept-Encoding: gzip
+Connection: keep-alive
+User-Agent: Mozilla/5.0 SF/2.10b
+Range: bytes=0-399999
+Referer: http://kacperzielinski.pl/
+Cookie: PHPSESSID=dsqsuu7kk93vkft0rjtn16if76
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 95
+
+login=skipfish&name=Smith&email=dclk.test.so&password1=skipfish&password2=skipfish&checkbox1=on

@@ -1,0 +1,47 @@
+HTTP/1.1 200 Partial Content
+Date: Sun, 09 Dec 2018 08:53:12 GMT
+Server: Apache/2.4.35 (Win32) OpenSSL/1.1.0i PHP/7.2.11
+X-Powered-By: PHP/7.2.11
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Content-Range: bytes 0-959/960
+Content-Length: 960
+Keep-Alive: timeout=5, max=98
+Connection: Keep-Alive
+Content-Type: text/html; charset=UTF-8
+
+<br />
+<b>Notice</b>:  Undefined index: userId in <b>C:\xampp\htdocs\_me_lab7\web\transferHistory.php</b> on line <b>11</b><br />
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SecurBank Transfers History</title>
+		<meta charset="utf-8">
+		<meta name="author" content="Kacper Zielinski">
+		<meta name="viewport" content = "width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="../static/css/form.css" />
+        <link rel="stylesheet" href="../static/css/table.css" />
+    </head>
+    <body>
+		<div class="formDiv">
+			<table id="history">
+				<thead>
+					<tr>
+					<th>Nazwa odbiorcy</th> 
+					<th>Konto odbiorcy</th> 
+					<th>WartoÅ›Ä‡</th> 
+					<th>TytuÅ‚</th> 
+					<th>Data</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr><td> </td><td> </td><td> </td><td> </td><td> </td></tr>				</tbody>
+			</table>
+		<br>
+		<a href="home.php" class="leftDownLink">Return</a>
+		</div>
+    </body>
+</html>
+
+ö×!

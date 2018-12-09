@@ -1,0 +1,1 @@
+var res = {'data':'HTTP/1.1 200 Partial Content\x0aDate: Sun, 09 Dec 2018 08:18:26 GMT\x0aServer: Apache/2.4.35 (Win32) OpenSSL/1.1.0i PHP/7.2.11\x0aX-Powered-By: PHP/7.2.11\x0aSet-Cookie: PHPSESSID=r5qai1srm46hrkj68c4495b8mb; path=/\x0a\x0a[...truncated...]\x0a'}

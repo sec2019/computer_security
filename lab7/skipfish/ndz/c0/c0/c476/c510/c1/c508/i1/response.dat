@@ -1,0 +1,30 @@
+HTTP/1.1 200 Partial Content
+Date: Sun, 09 Dec 2018 09:06:27 GMT
+Server: Apache/2.4.35 (Win32) OpenSSL/1.1.0i PHP/7.2.11
+X-Powered-By: PHP/7.2.11
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Content-Range: bytes 0-1906/1907
+Content-Length: 1907
+Keep-Alive: timeout=5, max=12
+Connection: Keep-Alive
+Content-Type: text/html; charset=UTF-8
+
+<br />
+<b>Warning</b>:  mysqli::__construct(): (HY000/2002): Tylko jedno u�ycie ka�dego adresu gniazda (protok�/adres sieciowy/port) jest normalnie dozwolone.
+ in <b>C:\xampp\htdocs\_me_lab7\includes\dbConnector.php</b> on line <b>21</b><br />
+<br />
+<b>Warning</b>:  mysqli_real_escape_string(): Couldn't fetch mysqli in <b>C:\xampp\htdocs\_me_lab7\includes\dbConnector.php</b> on line <b>110</b><br />
+<br />
+<b>Warning</b>:  mysqli::query(): Couldn't fetch mysqli in <b>C:\xampp\htdocs\_me_lab7\includes\dbConnector.php</b> on line <b>113</b><br />
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SecurBank - Register</title>
+		<meta charset="utf-8">
+		<meta name="author" content="Kacper Zielinski">
+		<meta name="viewport" content = "width=device-width, initial-scale=1.0"/>
+		
+        <link rel="stylesheet" href="../static/css/form.css" />
+		<script src='https://www.google.com/recaptcha/api.js'

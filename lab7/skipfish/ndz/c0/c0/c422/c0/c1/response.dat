@@ -1,0 +1,34 @@
+HTTP/1.1 200 Partial Content
+Date: Sun, 09 Dec 2018 09:10:21 GMT
+Server: Apache/2.4.35 (Win32) OpenSSL/1.1.0i PHP/7.2.11
+Last-Modified: Fri, 30 Nov 2018 02:14:43 GMT
+ETag: "1cb-57bd85cd1c1ad"
+Accept-Ranges: bytes
+Content-Length: 459
+Content-Range: bytes 0-458/459
+Keep-Alive: timeout=5, max=81
+Connection: Keep-Alive
+Content-Type: text/css
+
+#history {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#history td, #history th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#history tr:nth-child(even){background-color: #f2f2f2;}
+
+#history tr:hover {background-color: #ddd;}
+
+#history th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #525252;
+    color: white;
+}
